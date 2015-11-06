@@ -10,3 +10,24 @@ Primeiro projeto de git para code-education
   4. git log (para verificar);
   5. git push origin master.
 * Assim o repositorio online ficou atualizado e por fim o arquivo README foi alterado pelo próprio github online e commitado.
+
+Atualização
+
+* Todos os comandos dados para criar uma nova versão:
+  1. git tag 0.1.0;
+  2. git tag -l;
+  3. git push --tag origin master;
+  4. git pull;
+  5. vim arquivo.txt;
+  6. vim arquivonovo.txt;
+  7. git status;
+  8. git add . ;
+  9. git commit -m "modificando arquivo anterior e adicionando arquivonovo";
+  10. git log;
+  11. git push origin master;
+  12. vim README.md;
+  13. git add . ;
+  14. git commit -m "atualizando o README";
+  15. git push origin master;
+  16. git tag 0.1.1;
+  17. git push --tag origin master.
